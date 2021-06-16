@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background: #000000;
+}
+.container{
+    padding: 2rem 2rem;
+    border: black solid 1px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+h1{
+    margin: 0;
+}
+.form-control{
+   display: flex;
+   flex-direction: column;
+}
+.form-control label{
+    margin: 10px 0;
+    font-weight: 900;
+}
+.form-control-check{
+    flex-direction: unset;
+    align-items: center;
+}
+input{
+    padding: 7px;
+}
+.btn{
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background:black;
+}
+.btn-block{
+    background:green ;
+}
